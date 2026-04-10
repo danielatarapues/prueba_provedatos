@@ -19,7 +19,7 @@ Este proyecto es una solución integral para la gestión de empleados, desarroll
 
 ## 📋 Características del Proyecto
 
-1. *Listado de Empleados:** Visualización de los primeros 20 registros con búsqueda dinámica por nombre y código.
+1. **Listado de Empleados:** Visualización de los primeros 20 registros con búsqueda dinámica por nombre y código.
 2. **Gestión de Empleados (CRUD):** Creación y edición de fichas de empleados con validaciones de formulario.
 3. **Formulario en Dos Pasos:** Separación lógica entre *Datos Personales* y *Datos Laborales*.
 4. **Carga de Imágenes:** Sistema para subir y previsualizar la fotografía del empleado.
