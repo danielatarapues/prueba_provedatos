@@ -29,13 +29,24 @@ Este proyecto es una solución integral para la gestión de empleados, desarroll
 ## 🛠️ Instalación y Configuración
 
 ### Requisitos Previos
-- [cite_start]Servidor local (XAMPP, WAMP, Laragon) con **PHP** y **MySQL**.
+- Servidor local (XAMPP, WAMP, Laragon) con **PHP** y **MySQL**.
 - **Node.js** para el entorno de ejecución del frontend.
+
+## 🛠️ Instalación y Configuración
+
+### 1. Preparación de la Base de Datos (Copiar y Pegar) 🗄️
+Para configurar el entorno de datos, siga estos pasos:
+1. Localice el archivo `database.sql` dentro de la carpeta `docs/`.
+2. Copie todo el contenido del archivo.
+3. En su gestor de base de datos (ej. phpMyAdmin), diríjase a la pestaña **SQL**.
+4. Pegue el código y ejecútelo. El script se encargará automáticamente de:
+   - Crear la base de datos `provedatos_db`.
+   - Crear las tablas `provincia` y `empleados`.
+   - Insertar las 24 provincias del Ecuador necesarias para el funcionamiento y usuarios de prueba.
 
 ### Configuración del Backend
 1. Ubica la carpeta `backend-provedatos` en tu servidor local (ej. `htdocs`).
 2. Configura las credenciales de tu base de datos en `config/Database.php`.
-3. Importa el script SQL proporcionado (incluyendo los datos de provincias) en tu gestor de base de datos.
 
 ### Configuración del Frontend
 1. Navega a la carpeta `prueba_provedatos`.
