@@ -1,0 +1,5 @@
+/* Oculta el icono del calendario nativo en navegadores basados en Webkit (Chrome, Safari, Edge) */
+.no-native-icon::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}

@@ -189,7 +189,7 @@ const EmpleadoForm = ({
                   <input
                     ref={fechaNacimientoRef}
                     type="date"
-                    className="form-control"
+                    className="form-control no-native-icon"
                     value={formData.fecha_nacimiento}
                     max={new Date().toISOString().split("T")[0]}
                     onChange={(e) =>
@@ -287,7 +287,7 @@ const EmpleadoForm = ({
                   <input
                     ref={fechaIngresoRef}
                     type="date"
-                    className="form-control"
+                    className="form-control no-native-icon"
                     value={formData.fecha_ingreso}
                     min={formData.fecha_nacimiento || undefined}
                     onChange={(e) =>
